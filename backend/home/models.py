@@ -12,3 +12,7 @@ class CustomText(models.Model):
     title = models.CharField(
         max_length=150,
     )
+    rent = models.TextField(
+        null=True,
+        blank=True,
+    )
